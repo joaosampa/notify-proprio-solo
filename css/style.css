@@ -20,6 +20,9 @@ header{
     grid-area: banner;
     background-color: blueviolet;
     /*background-image: url(../imagens/banner.png);*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 section{
@@ -91,4 +94,19 @@ section .menu{
 }
 footer{
     background-color: lightpink;
+}
+.fot-ico{
+    align-items: center;
+    align-content: space-around;
+  
+}
+.textop{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.h1-fot{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
